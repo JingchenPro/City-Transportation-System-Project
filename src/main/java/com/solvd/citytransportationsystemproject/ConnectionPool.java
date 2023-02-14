@@ -12,7 +12,7 @@ import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
 public class ConnectionPool {
-    final static Logger logger = LogManager.getLogger(Runner.class.getName());
+    final static Logger logger = LogManager.getLogger(ARunner.class.getName());
 
     private static ConnectionPool instance;
     private static final int MAX_CONNECTIONS = 10;
